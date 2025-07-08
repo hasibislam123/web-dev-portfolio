@@ -22,7 +22,7 @@
     color: wheat;
     font-size: 20px;
     padding: 18px 35px;
-    border-radius: 5px;
+    border-radius: 15px;
     border-color: 3px solid black;
 }
 
@@ -121,6 +121,11 @@ main{
     margin: 0 auto;
      
 }
+
+main section{
+   margin-top: 130px;
+   margin-bottom: 130px;
+}
  /* about style*/
  .about {
     border-radius: 10px;
@@ -150,10 +155,81 @@ main{
     border: 2px solid #FFF8F3;
     margin: 20px;
     background-color: wheat;
+    border-radius: 5px;
     box-shadow: 10px 10px 10px black;
-    padding: 10px;
+    padding: 30px;
  }
 
  .skill-title{
-    padding: 10px ;
+    padding: 5px ;
  }
+
+ /*.skill-description{
+    
+ }*/
+
+ /* resume section style */
+ .resume-container{
+   display: flex;
+   gap: 24px;
+
+ }
+
+ .resume-column-title{
+   font-size: 30px;
+   color: #181818;
+ }
+
+ .experience-title{
+   font-size: 25px;
+   color: #474747;
+
+ }
+
+ .experience-sub-title{
+   font-size: 20px;
+   color: #757575;
+   font-weight: 600;
+   margin-bottom: 20px;
+ }
+
+ .experience-description{
+   font-size: 16px;
+   color: #A3A3A3;
+ }
+
+ .hr-sub{
+   color: #FFF8F3;
+   text-decoration: #FFF8F3;
+   margin: 30px 5px;
+ }
+
+.text-center{
+   display: flex;
+   justify-content: center;
+   
+}
+
+.resume-download-cv{
+   margin: 50px;
+}
+
+footer{
+   padding: 130px;
+   display: flex;
+   gap: 100px;
+}
+.footer-column{
+   width: 50%;
+}
+footer input[type="text"] , footer input[type="email"] , footer textarea{
+   height: 64px;
+   border-radius: 5px;
+   background-color: wheat;
+   display: block;
+   width: 100%;
+   padding: 10px 20px;
+   margin-bottom: 24px;
+   border: none;
+   font-size: 24px;
+}
