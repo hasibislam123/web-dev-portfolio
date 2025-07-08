@@ -26,6 +26,11 @@
     border-color: 3px solid black;
 }
 
+.btn-primary a{
+    text-decoration: none;
+    color: #181818;
+}
+
 .section-title{
     font-size: 35px;
     font-weight: bold;
@@ -132,4 +137,23 @@ main{
  .about-items{
     display: flex;
     justify-content: space-around;
+ }
+
+ .skills-cotainer{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .skill{
+    height: 377px;
+    width: 255px;
+    border: 2px solid #FFF8F3;
+    margin: 20px;
+    background-color: wheat;
+    box-shadow: 10px 10px 10px black;
+    padding: 10px;
+ }
+
+ .skill-title{
+    padding: 10px ;
  }
